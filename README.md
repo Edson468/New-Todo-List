@@ -31,17 +31,6 @@ Um **gerenciador de tarefas moderno, funcional e visualmente impressionante**, c
 
 ---
 
-## 🖼️ Prévia
-
-### Desktop
-![Desktop Preview](https://via.placeholder.com/800x500/1e293b/ffffff?text=To-Do+List+Desktop+Preview)
-> *(Substitua pelo print real do seu app!)*
-
-### Mobile
-![Mobile Preview](https://via.placeholder.com/300x600/1e293b/ffffff?text=To-Do+List+Mobile+Preview)
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 | Ferramenta | Propósito |
@@ -136,10 +125,10 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-## ✨ Feito com ❤️ por [Seu Nome]
+## ✨ Feito por Edson Carvalho
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/seu-perfil](https://www.linkedin.com/in/edson-carvalho-213b051b1/))
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]([https://github.com/seu-usuario](https://github.com/Edson468))
 
 > "Organize seu tempo, conquiste seus objetivos."
 ```
