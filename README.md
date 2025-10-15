@@ -1,70 +1,145 @@
-# Getting Started with Create React App
+# 📋 To-Do List Avançado
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-000000?style=for-the-badge&logo=framer&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-## Available Scripts
+Um **gerenciador de tarefas moderno, funcional e visualmente impressionante**, construído com React e Tailwind CSS. Ideal para organizar sua rotina com categorias, prioridades, data/hora e muito mais!
 
-In the project directory, you can run:
+✨ **Totalmente responsivo** | 💾 **Persistência automática** | 📤 **Exportação para CSV** | 🎨 **Design futurista**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌟 Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ✅ **Adicionar, editar e excluir tarefas**
+- 🗂️ **Categorias**: Casa, Trabalho, Escola, Faculdade
+- 📅 **Data e hora** obrigatórias para cada tarefa
+- 🔴 **Prioridades**: Alta, Média, Baixa (com ícones visuais)
+- 📊 **Dashboard em tempo real** com:
+  - Total de tarefas
+  - Concluídas / Pendentes / Atrasadas
+  - Contagem por prioridade e categoria
+- ⚠️ **Detecção automática de tarefas atrasadas**
+- 📤 **Exportar tarefas para CSV** (por categoria ou todas)
+- 🗑️ **Limpar todas as tarefas** (com confirmação)
+- 💾 **Persistência com `localStorage`** (nada se perde ao recarregar!)
+- 🧭 **Navegação por categoria** com URLs reais (`/casa`, `/trabalho`, etc.)
+- 🎨 **Layout em duas colunas** (formulário + resumo)
+- 📱 **Totalmente responsivo** (móvel, tablet, desktop)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🖼️ Prévia
 
-### `npm run build`
+### Desktop
+![Desktop Preview](https://via.placeholder.com/800x500/1e293b/ffffff?text=To-Do+List+Desktop+Preview)
+> *(Substitua pelo print real do seu app!)*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Mobile
+![Mobile Preview](https://via.placeholder.com/300x600/1e293b/ffffff?text=To-Do+List+Mobile+Preview)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm run eject`
+| Ferramenta | Propósito |
+|-----------|----------|
+| **React** | Biblioteca principal para interface |
+| **Tailwind CSS** | Estilização rápida e moderna |
+| **Framer Motion** | Animações suaves e micro-interações |
+| **React Router DOM** | Navegação entre categorias |
+| **localStorage** | Persistência de dados no navegador |
+| **ESLint + Prettier** | Qualidade e padronização de código |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Como Rodar Localmente
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/to-do-list.git
+   cd to-do-list
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Instale as dependências**
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Inicie o servidor de desenvolvimento**
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Acesse no navegador**
+   ```
+   http://localhost:3000
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🌐 Deploy Online (Vercel)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Este projeto está configurado para deploy automático com **Vercel**. Basta:
 
-### Analyzing the Bundle Size
+1. Conectar seu repositório ao [Vercel](https://vercel.com)
+2. Clicar em **Deploy**
+3. Pronto! Seu app estará online em minutos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> 🔗 **Link de exemplo**: [https://to-do-list.vercel.app](https://to-do-list.vercel.app) *(substitua pelo seu)*
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📁 Estrutura do Projeto
 
-### Advanced Configuration
+```
+to-do-list/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── CaixaStatus.jsx
+│   │   ├── Formulario.jsx
+│   │   └── ResumoTarefas.jsx
+│   ├── App.js
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 💡 Dicas de Uso
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Tarefas atrasadas** são detectadas automaticamente (data/hora no passado + não concluída).
+- Use o **botão "Exportar CSV"** para fazer backup ou analisar suas tarefas em planilhas.
+- Clique no ícone ✏️ para **editar uma tarefa existente**.
+- Navegue pelas categorias no header para **filtrar rapidamente**.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para:
+
+- Abrir uma **issue** para relatar bugs ou sugerir melhorias
+- Enviar um **pull request** com novas funcionalidades
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## ✨ Feito com ❤️ por [Seu Nome]
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
+
+> "Organize seu tempo, conquiste seus objetivos."
+```
